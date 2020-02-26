@@ -1,0 +1,102 @@
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1
+$ ls
+index.html
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1
+$ dir
+index.html
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1
+$ git config --global user.name"Protimaa"
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1
+$   git config --global user.name"Protimaa"
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1
+$ git config --global user.name "Protimaa"
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1
+$ git config --global user.name
+Protimaa
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1
+$ git config --global user.email "protima.swe@gmail.com"
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1
+$ git config --global user.email
+protima.swe@gmail.com
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1
+$ git clone https://github.com/Protimaa/Protima-2020
+Cloning into 'Protima-2020'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 594 bytes | 74.00 KiB/s, done.
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1
+$ cd Protima-2020
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ ls
+README.md
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ ls
+index.html  README.md
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ git add .
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index.html
+
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ git commit "new index.html file create"
+error: pathspec 'new index.html file create' did not match any file(s) known to git
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ git commit -m "new index.html file create"
+[master 19627b7] new index.html file create
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 289 bytes | 289.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Protimaa/Protima-2020
+   517a362..19627b7  master -> master
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$
