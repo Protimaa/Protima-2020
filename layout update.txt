@@ -1,0 +1,81 @@
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1
+$ ls
+index.html  Protima-2020/
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1
+$ cd Protima-2020
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ ls
+'create git.txt'   index.html   README.md
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ git config --global user.name
+Protimaa
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ git config --global user.email
+protima.swe@gmail.com
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ git add .
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ git commit -m "create layout on index.html file"
+[master 9979617] create layout on index.html file
+ 1 file changed, 28 insertions(+)
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ git push origin master
+giEnumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 556 bytes | 556.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Protimaa/Protima-2020
+   5aa1fea..9979617  master -> master
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ ^Ct
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$ ^C
+
+swargo@DESKTOP-OGUMK8B MINGW64 /d/Protima 2020/Learn 2020/php bitm/Day - 1/Protima-2020 (master)
+$
